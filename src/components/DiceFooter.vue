@@ -1,6 +1,6 @@
 <template>
 <div>
-    <h2>footer 2020</h2>
+    <h2 class="myFooter">footer 2020</h2>
 </div>
 </template>
 
@@ -11,4 +11,8 @@ export default {
 </script>
 
 <style>
+.myFooter{
+    text-align: center;
+    background: darkgray;
+}
 </style>

@@ -1,6 +1,11 @@
 <template>
 <div>
   <diceHeader/>
+  1の目
+  <diceMain/>
+  <h2>2の目</h2>
+  <diceMain/>
+  <h2>3の目</h2>
   <diceMain/>
   <diceFooter/>
 </div>
