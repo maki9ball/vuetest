@@ -1,7 +1,7 @@
 <template>
 <div>
     <h2>header 2020</h2>
-<div/>
+</div>
 </template>
 
 <script>
