@@ -1,28 +1,25 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div>
+  <diceHeader/>
+  1の目
+  <diceMain/>
+  <h2>2の目</h2>
+  <diceMain/>
+  <h2>3の目</h2>
+  <diceMain/>
+  <diceFooter/>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import diceHeader from './components/DiceHeader';
+import diceMain from './components/DiceMain';
+import diceFooter from './components/DiceFooter';
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { diceHeader, diceMain, diceFooter }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
